@@ -12,10 +12,10 @@
 #include <esp_now.h>
 
 // WiFi and MQTT settings
-const char* ssid = "AMANDA";
-const char* password = "aurora08";
+const char* ssid = "";
+const char* password = "";
 const char* mqtt_server = "broker.emqx.io";
-const char* mqttTopic = "esp32cam/bioflok";
+const char* mqttTopic = "";
 
 // ESP-NOW settings
 uint8_t peerAddress[] = {0x20, 0x43, 0xA8, 0x65, 0x71, 0x78};
